@@ -68,9 +68,11 @@ for (let x = 0; x < opration.length; x++) {
                     }
                 }
                 let claulator = arr.join("");
-                claulator = eval(claulator);
-                
-                
+                try {
+                    claulator = eval(claulator);
+                } catch {
+                    claulator = "error";
+                }
                 
                 result.value = claulator;
 
