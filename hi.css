@@ -2,7 +2,7 @@ body{
     background: #d3d3d3;
     display: flex;
     justify-content: center;  
-    align-items: end;  
+    align-items: center;  
     height: 90vh;
     margin: 0;
     caret-color: transparent;
